@@ -1,0 +1,222 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto);
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: "Rounded Mplus 1c", "Hiragino Kaku Gothic ProN", "メイリオ", sans-serif, 游ゴシック体, "Yu Gothic", YuGothic, sans-serif;
+}
+
+.to-section {
+    position: absolute;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+.top-section a {
+    color: #fff;
+    margin-top: 47vh;
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    display: block;
+}
+
+.half-screen {
+    height: 100vh;
+    width: 50vw;
+    position: absolute;
+    z-index: 10;
+}
+
+.half-screen a:hover,
+.half-screen a:focus {
+    text-decoration: none;
+}
+
+.half-screen.left-screen {
+    top: 0;
+    left: 0;
+    background-color: #E2E3F1;
+}
+
+.half-screen.right-screen {
+    right: 0;
+    top: 0;
+    background-color: #F6D9E7;
+}
+
+.main {
+    position: relative;
+    top: 105vh;
+    display: block;
+    margin: auto;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999999;
+}
+
+.nav .bottom-nav {
+    position: relative;
+    bottom: 0;
+    right: 0;
+    display: none;
+    width: 0;
+    height: 0;
+    border-bottom: 90px solid #E2C5FF;
+    border-left: 260px solid transparent;
+    opacity: 1;
+}
+
+.nav #nav-text {
+    display: none;
+    position: absolute;
+    color: #fff;
+    bottom: 0;
+    right: 10px;
+    z-index: 100;
+    font-size: 2rem;
+    coursor: pointer;
+}
+
+.nav #nav-text:hover,
+.nav #nav-text:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+.to-contact {
+    position: fixed;
+    right: 10px;
+    top: 5px;
+    color: #E2C5FF;
+    font-size: 2.8rem;
+    z-index: 200;
+}
+
+.to-contact a {
+    color: #A28EAD;
+}
+
+#design {
+    padding-top: 40px;
+}
+
+.profile {
+    margin-top: 160px;
+    margin-bottom: 80px;
+}
+
+.profile .name {
+    font-weight: lighter;
+}
+
+.profile img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+a .linkedin {
+    font-size: 2rem;
+}
+
+#design,
+#develop {
+    padding-top: 80px;
+}
+
+h1.name,
+h2,
+#contact,
+#nav-text {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #555;
+}
+
+h1.name {
+    font-weight: bold;
+    font-size: 4.5rem;
+}
+
+.container p {
+    text-align: left;
+}
+
+.container h2 {
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.skills {
+    margin: 7rem 0 10rem 0;
+    position: relative;
+}
+
+.skills img {
+    max-height: 6rem;
+    max-width: 6rem;
+    width: 70%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.skills img.biglogo {
+    width: 60%;
+    max-width: 5rem;
+}
+
+.skills img.widelogo {
+    max-width: 9rem;
+}
+
+.contact-social {
+    z-index: 200;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 160px;
+}
+
+#contact {
+    margin-top: 80px;
+}
+
+.contact-social .fa {
+    margin-right: 2rem;
+    color: #777;
+    text-decoration: none;
+}
+
+.contact-social a {
+    text-decoration: none;
+}
+
+.contact-social a:hover {
+    opacity: .4;
+    transition: .4s;
+}
+
+small {
+    font-family: 'Quicksand', sans-serif;
+    color: #999;
+}
+
+@media only screen and (max-width: 768px) {
+    /*
+	.nav {
+		display: none !important;
+	}
+*/
+}
